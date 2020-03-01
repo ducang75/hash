@@ -1,0 +1,279 @@
+ .canvas
+ {
+    background:white
+ }
+        .canvas .header
+        {
+                background: #c9c9da;
+                width: 1520px;
+                height: 84px;
+
+
+
+                display: flex;
+                flex-direction: row;
+        }
+            .canvas .header .logo .picture
+            {
+                    height: 84px;
+                    width: 207px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+            }
+            .canvas .header .search
+            {
+                margin-left: 240px;
+            }
+
+                .canvas .header .search .card
+                {
+                    display: flex;
+                    flex-direction: row;
+                }
+
+
+                        .canvas .header .search .card .card1
+                        {
+                                   width: 499px;
+                                   height: 30px;
+                                   margin-top: 24px;
+                        }
+                        .canvas .header .search .card .card2
+                        {
+                                width: 42px;
+                                    height: 34px;
+                                    margin-top: 25px;
+                        }
+
+            .canvas .header .sign_in
+            {
+                display: flex;
+                flex-direction: row;
+                margin-left: 240px;
+            }
+                   .canvas .header .sign_in .icon_signin
+                   {
+                        width: 28px;
+                            height: 25px;
+                            margin-top: 25px;
+
+                   }
+                    .canvas .header .sign_in .signin_button
+                   {
+                                width: 88px;
+                                height: 37px;
+                                margin-top: 20px;
+                                margin-left: 16px;
+                   }
+
+        .canvas .second_bar
+        {
+                background: #ffe8e8;
+                width: 1520px;
+                height: 54px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 0px;
+        }
+                .canvas .second_bar .app_button
+                {
+                    height: 50px;
+                    width: 100px;
+                }
+                    .canvas .second_bar .app_button .home .button
+                    {
+                        height: 54px;
+                        width: 158px;
+                    }
+
+                .canvas .second_bar .categories #cate_button
+                {
+                        height: 54px;
+                            width: 159px;
+                            margin-left: 58px;
+                            margin-top: 0px;
+                            background: none;
+                            border: none;
+
+                }
+
+                .canvas .second_bar .vertical_bar
+                {
+                    border-left: 1px solid #222222;
+                     margin-left: 10px;
+                     margin-top: 7px;
+                     height: 40px;
+                }
+
+                .canvas .second_bar .home_button #h_button
+                {
+                            height: 54px;
+                            width: 113px;
+                            margin-left: -11px;
+                            margin-top: 0px;
+                            background: none;
+                            border: none;
+                }
+                .canvas .second_bar .top_chart #tc_button
+                {
+                            height: 54px;
+                            width: 113px;
+                            margin-left: -11px;
+                            margin-top: 0px;
+                            background: none;
+                            border: none;
+                }
+                .canvas .second_bar .new_releases #n_button
+                {
+                                            height: 54px;
+                                            width: 113px;
+                                            margin-left: -11px;
+                                            margin-top: 0px;
+                                            background: none;
+                                            border: none;
+                }
+
+                    .canvas .second_bar .help
+                    {
+
+                        margin-top: 10px;
+                            margin-left: 701px;
+                    }
+                         .canvas .second_bar .help .icon
+                         {
+                                height: 35px;
+                                width: 53px;
+                          }
+
+
+                    .canvas .second_bar .setting
+                    {
+
+                            margin-top: 10px;
+                            margin-left: 28px;
+                    }
+                        .canvas .second_bar .setting .icon
+                             {
+                                      height: 35px;
+                                      width: 78px;
+                             }
+
+        .canvas .content
+        {
+            display: flex;
+            flex-direction: row;
+
+
+        }
+                .canvas .content .column1
+                {
+                        background: #9E9E9E;
+                            width: 157px;
+                            height: 420px;
+                            display: flex;
+                            flex-direction: column;
+                }
+
+                        .canvas .content .column1 .upper_half
+                        {
+                                display: flex;
+                                    flex-direction: row;
+                                    width: inherit;
+                                    height: 195px;
+                                    background: red;
+                        }
+                                .canvas .content .column1 .upper_half .button
+                                {
+                                        height: inherit;
+                                        width: 21px;
+                                        background: white;
+                                }
+                                    .canvas .content .column1 .upper_half .button .right
+                                    {
+                                        height: 197px;
+                                            width: 20px;
+                                            margin-left: 1px;
+                                            margin-top: 0px;
+                                            background: none;
+                                    }
+
+                                .canvas .content .column1 .upper_half .list
+                                {
+                                         height: inherit;
+                                             width: 136px;
+                                             background: white;
+                                             display: flex;
+                                             flex-direction: column;
+                                }
+                                     .canvas .content .column1 .upper_half .list .button_list
+                                     {
+                                            width: inherit;
+                                            height: 39px;
+                                            border: none;
+                                            margin-left: 0px;
+                                     }
+                                     .canvas .content .column1 .upper_half .list .horizontal{
+                                                border-top: 1px solid #222222;
+                                                width: 78px;
+                                                margin-top: -1px;
+                                                margin-left: 26px;
+                                     }
+
+                        .canvas .content .column1 .downer_half
+                        {
+                                display: flex;
+                                flex-direction: column;
+                                width: inherit;
+                                height: 240px;
+                                background: red;
+                        }
+                                .canvas .content .column1 .downer_half .button
+                                {
+                                            width: 157px;
+                                            height: 30px;
+                                            border: none;
+                                            background: #d9cccc;
+                                }
+
+
+
+                .canvas .content .column2
+                {
+                            background: grey;
+                            margin-top: 44px;
+                            margin-left: 167px;
+                            height: 1500px;
+                            width: 771px;
+                            display: flex;
+                            flex-direction: column;
+                }
+
+
+                .canvas .content .column3
+                {
+                            background: grey;
+                            margin-top: 119px;
+                            margin-left: 65px;
+                            height: 300PX;
+                            width: 268px;
+                            display: flex;
+                            flex-direction: column;
+                }
+                    .canvas .content .column3 .title
+                    {
+                            margin-top: -10px;
+                            width: inherit;
+                            height: 30px;
+                            display: flex;
+                            flex-direction: row;
+                            margin-left: 1px;
+                    }
+                        .canvas .content .column3 .title .con
+                        {
+                            font-family: arial;
+                        }
+
+footer {
+  display: flex;
+  align-items: center;
+}
