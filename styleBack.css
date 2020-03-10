@@ -1,3 +1,20 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
  .canvas
  {
     background:white
@@ -247,6 +264,99 @@
                             display: flex;
                             flex-direction: column;
                 }
+                     .canvas .content .column2 .first
+                     {
+                            background: red;
+                            width: inherit;
+                            height: 222px;
+                            display: flex;
+                            flex-direction: row;
+                     }
+                        .canvas .content .column2 .first .image
+                        {
+                            width: 222px;
+                            height: inherit;
+                        }
+
+                        .canvas .content .column2 .first .detail
+                        {
+                                width: 549px;
+                                background: #e4e5e5;
+                                margin-left: 0px;
+                                margin-top: 0px;
+                                height: inherit;
+                                display: flex;
+                                flex-direction: column;
+
+                        }
+                                .canvas .content .column2 .first .detail .name
+                                {
+                                        font-family: cursive;
+                                        margin-left: 18px;
+                                        margin-top: 16px;
+                                        font-size: 32px;
+                                }
+
+                                .canvas .content .column2 .first .detail .downer
+                                {
+                                        margin-left: 0px;
+                                        margin-top: -20px;
+                                }
+
+                                    .canvas .content .column2 .first .detail .downer .link
+                                    {
+                                            margin-left: 18px;
+                                            margin-top: 0px;
+                                    }
+
+                                .canvas .content .column2 .first .detail .target{
+                                        margin-left: 18px;
+                                         margin-top: -8px;
+
+                                                    display: flex;
+                                        flex-direction: row;
+                                }
+
+                                .canvas .content .column2 .first .detail .age
+                                {
+                                            height: 15px;
+                                            width: 15px;
+                                            margin-left: 1px;
+                                            margin-top: -3px;
+                                            font-size: 13px;
+
+                                }
+
+
+
+                     .canvas .content .column2 .third
+                     {
+                                background: aqua;
+                                width: inherit;
+                                height: 1000px;
+
+                     }
+                        .canvas .content .column2 .third .introduce
+                        {
+                                     margin-left: 28px;
+                                     margin-top: 27px;
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                 .canvas .content .column3
@@ -272,6 +382,66 @@
                         {
                             font-family: arial;
                         }
+                        .canvas .content .column3 .title .seemore
+                        {
+                            margin-left: 144px;
+                                height: 30px;
+                                width: 70px;
+                                margin-top: 10px;
+                        }
+                    .canvas .content .column3 .game_card
+                    {
+                                margin-top: 17px;
+                                width: inherit;
+                                height: 113px;
+                                display: flex;
+                                flex-direction: row;
+                                margin-left: 0px;
+                                background: red;
+                    }
+
+                        .canvas .content .column3 .game_card .link
+                        {
+                            width: 113px;
+                            height: 113px;
+                            display: flex;
+                            flex-direction: row;
+                            background:blue;
+                        }
+                            .canvas .content .column3 .game_card .link .image{
+                                    width: 113px;
+                                    height: 113px;
+                                    margin-left: 0px;
+                                    margin-top: 0px;
+                            }
+                            .canvas .content .column3 .game_card .description
+                            {
+                                    margin-left: 0px;
+                                    margin-top: 0px;
+                            }
+
+                                .canvas .content .column3 .game_card .description .dm
+                                {
+                                        margin-left: 0px;
+                                        margin-top: 0px;
+
+                                }
+                                        .canvas .content .column3 .game_card .description .dm .det
+                                        {
+                                            margin-left: 0px;
+                                                                            margin-top: 0px;
+                                                                                font-size:14px;
+                                                                                font-family: arial;
+
+                                        }
+
+
+                                .canvas .content .column3 .game_card .description .textdes{
+                                        margin-left: 0px;
+                                        margin-top: -14px;
+
+                                }
+
 
 footer {
   display: flex;
